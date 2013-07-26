@@ -3,6 +3,10 @@ typecatcher
 
 Grabs all the fonts from a Typekit and installs them.
 
+#### Prerequisites
+
+You have a Typekit kit created and you've added the domain "localhost" to it.
+
 ### Running the downloader
 In order to download a TypeKit kit, run the following after cloning the repo:
 ```
