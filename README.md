@@ -1,7 +1,8 @@
-typecatcher
+Typecatcher
 ===========
 
-Grabs all the fonts from a Typekit and installs them.
+Grabs all the fonts from a Typekit kit (which you own) and installs them to your computer.
+Note: this probably goes against the Typekit TOS.
 
 #### Prerequisites
 
@@ -23,3 +24,8 @@ The files in the `/Library/Fonts` have the following hidden flag applied to them
 `chflags hidden /Library/Fonts/#{filename}.ttf`
 ```
 So if you are looking for those files be aware that they are hidden.
+
+### The Future
+
+Would like to make a OSX application which executes the same stuff that run.rb does.
+Make a simple github website for this project.
